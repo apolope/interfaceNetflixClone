@@ -129,6 +129,7 @@ header nav a:hover {
     border-radius: 10px;
     
     transition: .5s ease all;
+    padding-top: 15px;
 }
 
 .carrousel-films .item:hover {
