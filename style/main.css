@@ -21,7 +21,7 @@
 /* Base Elements */
 body {
     background: var(--black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: var(--white);
 }
 
@@ -86,6 +86,8 @@ header nav a:hover {
 
     cursor: pointer;
     transition: .5s ease all;
+
+    border-radius: 5px;
 }
 
 .button:hover {
@@ -103,4 +105,16 @@ header nav a:hover {
 
 .main-movie .container {
     width: 70%;
+}
+
+.box-film {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+    max-width: 200px;
+}
+
+.carrousel-films {
+    margin: 5px;
 }
