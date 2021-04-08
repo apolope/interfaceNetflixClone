@@ -1,0 +1,43 @@
+/* Variable */
+:root {
+    --vermelha: #E50914;
+    --preta: #141414;
+    --link: #AAAAAA;
+    --linkHover: #FFFFFF;
+}
+
+/* Reset CSS all items */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row; /* Property default */
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 8px;
+    color: var(--vermelha);
+    font-family: "Arial Black";
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--link);
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--linkHover);
+}
