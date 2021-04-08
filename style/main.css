@@ -9,6 +9,10 @@
 
     --button: rgba(0, 0, 0, 0.5);
     --buttonHover: rgba(255, 255, 255, 0.5);
+
+    --textLight: #FFFFFF;
+
+    --itemHover: rgba(14, 14, 14, 0.6);
 }
 
 /* Reset CSS all items */
@@ -113,8 +117,31 @@ header nav a:hover {
     display: block;
 
     max-width: 200px;
+
+    border-radius: 10px;
 }
 
 .carrousel-films {
     margin: 5px;
+}
+
+.carrousel-films .item {
+    animation: .3 ease all;
+    border-radius: 10px;
+}
+
+.item:hover {
+    background-color: var(--itemHover);
+    transform: scale(1.1);
+}
+
+.carrousel-films .carousel-item-description {
+    padding-top: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--link);
+}
+
+.carousel-item-description p {
+    color: var(--textLight);
 }
