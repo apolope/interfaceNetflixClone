@@ -126,11 +126,12 @@ header nav a:hover {
 }
 
 .carrousel-films .item {
-    animation: .3 ease all;
     border-radius: 10px;
+    
+    transition: .5s ease all;
 }
 
-.item:hover {
+.carrousel-films .item:hover {
     background-color: var(--itemHover);
     transform: scale(1.1);
 }
